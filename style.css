@@ -13,11 +13,11 @@
   text-align: right;
 }
 
-.banner {
+.header__banner {
   width: 100%;
 }
 
-.more-inf {
+.header__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -41,21 +41,21 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.main__section_task-row-wrapper {
   display: flex;
 }
 
-.task-list {
+.main__task-list {
   margin: 0;
   padding: 0px;
 }
 
-.item, 
+.main__item, 
 .title {
   list-style: none;
 }
 
-.input,
+.main__input,
 .button {
   outline: none;
 }
@@ -105,18 +105,18 @@
 
 /* New Task */
 
-.label {
+.main__section_label {
   display: block;
   margin: 0 0 20px;
 }
 
-.input#new-task {
+.main__input#new-task {
   width: 318px;
 }
 
 /* Task list */
 
-.item {
+.main__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -125,7 +125,7 @@
   align-items: center;
 }
 
-.item > * {
+.main__item > * {
   vertical-align: middle;
 }
 
